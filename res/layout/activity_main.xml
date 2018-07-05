@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.music.MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView_start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/appbg" />
+
+    <RelativeLayout
+        android:id="@+id/layout_start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B0000000" >
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Start"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:background="@drawable/btn_bg_round" />
+
+</RelativeLayout>
